@@ -1,0 +1,58 @@
+.loginContainer {
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: teal;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.loginBtn {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: teal;
+  cursor: pointer;
+}
+
+.loginBtn:hover {
+  background-color: rgb(1, 112, 112);
+}
+
+.failure {
+  color: red;
+  font-size: 12px;
+  text-align: center;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  padding: 5px;
+}

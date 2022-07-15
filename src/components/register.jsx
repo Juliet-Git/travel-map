@@ -20,7 +20,10 @@ export default function Register({setShowRegister}) {
     };
 
     try {
-      await axios.post("/users/register", newUser);
+      await axios.post(
+        "https://portfolio-progetto-3.herokuapp.com/api/users/register",
+        newUser
+      );
       setError(false);
       setSuccess(true);
     } catch (err) {

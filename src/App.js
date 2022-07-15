@@ -5,7 +5,7 @@ import axios from "axios";
 // import {format} from 'dayjs'
 import Map, { Marker, Popup } from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
-import "./app.css";
+import "./App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faStar } from "@fortawesome/free-solid-svg-icons";
 import Register from "./components/register";
